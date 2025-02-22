@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.Cache", "Cognassist.Notification.Cache\Cognassist.Notification.Cache.csproj", "{611D8799-B3F3-4C9F-810B-8F61D258D458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.Cache.Abstractions", "Cognassist.Notification.Cache.Abstractions\Cognassist.Notification.Cache.Abstractions.csproj", "{053B7EC6-4E23-4354-9AA3-EB740B959D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.CosmosDb", "Cognassist.Notification.CosmosDb\Cognassist.Notification.CosmosDb.csproj", "{AAC554AB-5702-48F9-996D-B6D8709E5DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.CosmosDb.Abstractions", "Cognassist.Notification.CosmosDb.Abstractions\Cognassist.Notification.CosmosDb.Abstractions.csproj", "{1AEA33E7-344C-4D73-8151-202EE16994E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.Domain", "Cognassist.Notification.Domain\Cognassist.Notification.Domain.csproj", "{6D1008C0-9952-4825-BDBE-E05D3A13648E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.Application", "Cognassist.Notification.Application\Cognassist.Notification.Application.csproj", "{D83E77DB-6AEC-49FC-8553-161BDD019D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognassist.Notification.Api", "Cognassist.Notification.Api\Cognassist.Notification.Api.csproj", "{E5D36464-D23E-4D7A-8308-C03B824BAE8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{611D8799-B3F3-4C9F-810B-8F61D258D458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611D8799-B3F3-4C9F-810B-8F61D258D458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611D8799-B3F3-4C9F-810B-8F61D258D458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611D8799-B3F3-4C9F-810B-8F61D258D458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053B7EC6-4E23-4354-9AA3-EB740B959D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053B7EC6-4E23-4354-9AA3-EB740B959D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053B7EC6-4E23-4354-9AA3-EB740B959D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053B7EC6-4E23-4354-9AA3-EB740B959D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC554AB-5702-48F9-996D-B6D8709E5DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC554AB-5702-48F9-996D-B6D8709E5DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC554AB-5702-48F9-996D-B6D8709E5DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC554AB-5702-48F9-996D-B6D8709E5DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEA33E7-344C-4D73-8151-202EE16994E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEA33E7-344C-4D73-8151-202EE16994E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEA33E7-344C-4D73-8151-202EE16994E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEA33E7-344C-4D73-8151-202EE16994E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1008C0-9952-4825-BDBE-E05D3A13648E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1008C0-9952-4825-BDBE-E05D3A13648E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1008C0-9952-4825-BDBE-E05D3A13648E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1008C0-9952-4825-BDBE-E05D3A13648E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83E77DB-6AEC-49FC-8553-161BDD019D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83E77DB-6AEC-49FC-8553-161BDD019D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83E77DB-6AEC-49FC-8553-161BDD019D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83E77DB-6AEC-49FC-8553-161BDD019D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D36464-D23E-4D7A-8308-C03B824BAE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D36464-D23E-4D7A-8308-C03B824BAE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D36464-D23E-4D7A-8308-C03B824BAE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D36464-D23E-4D7A-8308-C03B824BAE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
